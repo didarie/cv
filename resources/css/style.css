@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color: white;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #272A30;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #272A30;
+}
+
+h4{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:#4A4F5B;
+}
+
+p{
+    font-size: 1rem;
+    margin-top: 0;
+    color:#4A4F5B;
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    margin: 90px 70px;
+    padding: 120px;
+}
+
+.over{
+    font-size: 0.7rem;
+}
+
+/* Header */
+
+header{
+    background-image: url(/resources/img/header.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+header .container{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    padding: 0;
+}
+
+.text-header p{
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 3.5rem;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.button a {
+    color:white;
+}
+
+/* Menu */
+
+.menu{
+    background-color: #797784;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu .container{
+    margin: 0;
+}
+
+.menu ul{
+display: flex;
+flex-direction: column;
+}
+
+.menu h1{
+    margin: 1rem 0;
+    position: relative;
+}
+
+/* About me */
+
+.about-me .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-about-me p{
+    max-width: 500px;
+}
+
+.about-me img{
+    width: 50%;
+}
+
+/* Education */
+
+.text-education{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education p{
+   max-width: 500px; 
+}
+
+.education hr{
+    width: 98px;
+    margin-bottom: 1rem;
+}
+
+.education h4{
+    margin: 0.5rem 0 1rem 0;
+}
+
+.education img{
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* Skills */
+
+.name-section{
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+}
+
+.name-section h3{
+    font-size: 2rem;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .container{
+    padding-top: 50px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    row-gap: 30px;
+}
+
+.circle-div{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-div::before{
+    content: "";
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.value{
+    position: relative;
+    color:#4A4F5B;
+}
+
+.communication{
+    background: conic-gradient(#797784 50%, #79778420 0deg);
+}
+
+.adaptability{
+    background: conic-gradient(#797784 60%, #79778420 0deg);
+}
+
+.problem{
+    background: conic-gradient(#797784 80%, #79778420 0deg);
+}
+
+.attention{
+    background: conic-gradient(#797784 50%, #79778420 0deg);
+}
+
+.time{
+    background: conic-gradient(#797784 30%, #79778420 0deg);
+}
+
+.html{
+    background: conic-gradient(#797784 60%, #79778420 0deg);
+}
+
+.css{
+    background: conic-gradient(#797784 60%, #79778420 0deg);
+}
+
+.javascript{
+    background: conic-gradient(#797784 10%, #79778420 0deg);
+}
+
+.react{
+    background: conic-gradient(#797784 0%, #79778420 0deg);
+}
+
+.node{
+    background: conic-gradient(#797784 0%, #79778420 0deg);
+}
+
+/* Project */
+.projects h2{
+    text-align: right;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pr h3{
+    margin: 1rem 0 1rem 0;
+}
+
+/* Connect */
+.connect{
+    background-color: #797784;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect h2, p, hr{
+    color: #797784;
+}
+
+.info{
+    background-color: white;
+    padding: 5rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.social{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social img{
+    width: 50px;
+}
